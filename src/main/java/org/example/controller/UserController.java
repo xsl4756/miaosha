@@ -22,6 +22,8 @@ public class UserController {
         System.out.println("aa");
         List<UserDTO> userList = userService.findUserList();
         System.out.println(userList);
+        System.out.println("aaa");
+        System.out.println("aaa");
         return userList;
     }
 
