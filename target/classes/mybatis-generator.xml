@@ -1,0 +1,44 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <!--<classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" />-->
+
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!--数据库连接地址账号密码-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/miaosha"
+                        userId="root"
+                        password="1234">
+        </jdbcConnection>
+
+
+
+        <!--生成Model/DataObject类存放的位置-->
+       <!-- <javaModelGenerator targetPackage="org.example.dataobject" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        &lt;!&ndash;生成映射文件存放的位置&ndash;&gt;
+        <sqlMapGenerator targetPackage="mapping"  targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        &lt;!&ndash;生成Dao类存放的位置&ndash;&gt;
+        <javaClientGenerator type="XMLMAPPER" targetPackage="org.example.dao" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+    &lt;!&ndash;生成对应表及类名&ndash;&gt;
+    <table tableName="user_info" domainObjectName="UserDO" ></table>
+-->
+
+
+    </context>
+</generatorConfiguration>
