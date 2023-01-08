@@ -23,7 +23,7 @@ public class UserController {
         List<UserDTO> userList = userService.findUserList();
         System.out.println(userList);
         System.out.println("aaa");
-        System.out.println("aaa");
+        System.out.println("123");
         return userList;
     }
 
